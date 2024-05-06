@@ -116,9 +116,9 @@ function moveInvaders() {
         }
     }
     switch(e.key){
-        case 'ArrowUp' :
+        case 'click' :
             laserId = setInterval(movelaser, 100)
     }
  }
 
- document.addEventListener('keydown', shoot)
+ document.addEventListener('click', shoot)
